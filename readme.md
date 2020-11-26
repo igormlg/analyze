@@ -1,4 +1,8 @@
-<!-- @format -->
+./analyzer.py
 
-Пример запуска скрипта
-LOG=/Users/igormlg/study/tests/log_pyth/path/to/some.log TAIL=100 NEEDTOALERT=2 ./analyzer.py
+прописать в этой строчке свой путь до скрипта (файл .env)
+LOG=/Users/igormlg/study/tests/l_g/path/to/some.log
+
+если скрипт не запускается то в самой первой строчке кода нужно прописать
+путь до python3. Например:
+#!/Library/Frameworks/Python.framework/Versions/3.9/bin/python3
